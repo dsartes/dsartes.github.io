@@ -1,0 +1,21 @@
+.nav-link {
+    font-size: 1.2rem !important;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, body, html{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.testcarousel {
+    height: 80% !important;
+    width: 100% !important;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
