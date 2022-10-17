@@ -1,5 +1,19 @@
 .nav-link {
-    font-size: 1.2rem !important;
+    font-size: 0.9rem !important;
+    color: #ffffff;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: #0097DA!important;
+}
+
+.nav-link:focus{
+    color: #0097DA !important;
+}
+
+.nav-link:active{
+    color: #0097DA !important;
 }
 
 a, p, h1, h2, h3, h4, h5, h6, body, html{
@@ -18,4 +32,56 @@ a, p, h1, h2, h3, h4, h5, h6, body, html{
 .navbar.center .navbar-inner .nav {
     display:inline-block;
     float: none;
+}
+
+.sectiontext{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.subsectiontext{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #0097DA;
+    line-height: 28px;
+    font-weight: bolder;
+}
+
+#sobrenos{
+    margin-top: 30px;
+    padding-top: 65px;
+}
+
+#sobrenos:before{
+    height: 38px;
+}
+
+#formemail{
+    padding-top: 65px;
+    max-width: 600px;
+}
+
+#produtos{
+    padding-top: 65px;
+}
+
+#whatsappbutton{
+    color: #25D366;
+}
+
+#cardimagewind{
+    height: 289px;
+    width: 289px;
+    background-image:url("/images/cards/foto-2-wind.jpg");
+    background-size: cover;
+}
+
+#cardimageuniformes{
+    height: 289px;
+    width: 289px;
+    background-image:url("/images/cards/Camisetas-6-1.jpg");
+    background-size: cover;
+    background-position: center;
 }
