@@ -1,162 +1,228 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DS Artes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DS Artes</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
 
-  <link href="css/bootstrap.css" rel="stylesheet" >
-  <link href="css/main/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main/style.css" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/63e5ac736b.js" crossorigin="anonymous"></script>
-  <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63e5ac736b.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script>
+    <![endif]-->
 
 </head>
 <body>
 <script src="js/swiper-bundle.min.js"></script>
 
-<nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
-  <div class="container-sm">
-    <a class="navbar-brand" href="/index">
-      <img src="images/logo.png" alt="DS Artes" width="50" height="40">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Wind Banners</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Bandeira</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Uniformes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Serviços</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#formemail">Atendimento</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#sobrenos">Sobre Nós</a>
-        </li>
-      </ul>
+<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-sm">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="DS Artes" width="50" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="windbanners.html">Wind Banners e Bandeiras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="uniformes.html">Uniformes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Prestação de Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formemail">Atendimento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobrenos">Sobre Nós</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
 <div id="carouselExampleCaptions" class="carousel d-none d-sm-block slide" data-bs-touch="true" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/images/carrousel/banner_1.jpg" class="d-block w-100" alt="banner1">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-item">
-      <img src="/images/carrousel/banner_2.jpg" class="d-block w-100" alt="banner2">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/carrousel/banner_1.jpg" class="d-block w-100" alt="banner1">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/carrousel/banner_2.jpg" class="d-block w-100" alt="banner2">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/carrousel/banner_3.jpg" class="d-block w-100" alt="banner3">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="/images/carrousel/banner_3.jpg" class="d-block w-100" alt="banner3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
 <div id="sobrenos" class="container-sm flex-column d-flex justify-content-center">
-  <h2 class="sectiontext">Bem-vindo à</h2>
-  <h1 class="subsectiontext">DS Artes</h1>
-  <p class="ms-5 me-5 mt-4">A <b>
-    DS Artes</b> está no mercado desde 1998 e por alguns anos prestava serviços apenas de serigrafia para empresas do ramo de confecção e brindes em Indaiatuba.<br><br>
-    Com o passar do tempo começamos a desenvolver nossos próprios produtos no segmento de confecção e materiais relacionados a comunicação publicitaria, visando sempre atingir um publico mais amplo, levando o que há de melhor na evolução dessa área quem vem crescendo dia após dia e mantendo a fidelidade com nossos queridos clientes que estão conosco desde o início.<br><br>
-    Nossa missão é valorizar a marca dos nossos clientes, trazendo segurança com o nosso trabalho e produtos da melhor qualidade. Queremos que você seja visto e vamos trabalhar juntos para isso acontecer, não apenas como nosso cliente, mas como nosso amigo!</p>
+    <h2 class="sectiontext">Bem-vindo à</h2>
+    <h1 class="subsectiontext">DS Artes</h1>
+    <p class="ms-5 me-5 mt-4">A <b>
+        DS Artes</b> está no mercado desde 1998 e por alguns anos prestava serviços apenas de serigrafia para empresas
+        do ramo de confecção e brindes em Indaiatuba.<br><br>
+        Com o passar do tempo começamos a desenvolver nossos próprios produtos no segmento de confecção e materiais
+        relacionados a comunicação publicitaria, visando sempre atingir um publico mais amplo, levando o que há de
+        melhor na evolução dessa área quem vem crescendo dia após dia e mantendo a fidelidade com nossos queridos
+        clientes que estão conosco desde o início.<br><br>
+        Nossa missão é valorizar a marca dos nossos clientes, trazendo segurança com o nosso trabalho e produtos da
+        melhor qualidade. Queremos que você seja visto e vamos trabalhar juntos para isso acontecer, não apenas como
+        nosso cliente, mas como nosso amigo!</p>
 </div>
 
 <section id="produtos" class="flex-column d-flex justify-content-center p">
-  <h1 class="subsectiontext mb-3">Produtos</h1>
+    <h2 class="sectiontext">Conheça nossos</h2>
+    <h1 class="subsectiontext">Produtos</h1>
 
-  <div class="container-sm mt-4">
-    <div class="row ms-5 me-5">
-      <div class="col-sm d-flex justify-content-center">
+    <div class="container-sm mt-4">
+        <div class="row ms-5 me-5">
+            <div class="col-sm d-flex justify-content-center">
 
-        <div class="card" style="width: 18rem;">
-          <img src="images/cards/foto-2-wind.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Wind Banners</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+                <a class="cardlink" href="windbanners.html">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/cards/foto-2-wind.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Wind Banners</h5>
+                            <p class="card-text">Wind Banners de diversos tamanhos e tipos.</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-sm d-flex justify-content-center">
+
+                <a class="cardlink" href="uniformes.html">
+                    <div class="card mt-3 mt-lg-0" style="width: 18rem;">
+                        <img src="images/cards/card_polo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Uniformes</h5>
+                            <p class="card-text">Trabalhamos com todos os tipos de uniformes, camisas, bermudas, etc.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-
-      </div>
-      <div class="col-sm d-flex justify-content-center">
-
-        <div class="card" style="width: 18rem;">
-          <img src="images/cards/card_polo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Uniformes</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </div>
 
 </section>
 
 <div id="formemail" class="container-sm flex-column d-flex justify-content-center">
-  <h1 class="subsectiontext mb-3">Atendimento</h1>
+    <h1 class="subsectiontext mb-3">Atendimento</h1>
 
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-sm p-1">
-        <a href="https://api.whatsapp.com/send?phone=5519995066075&text=Ol%C3%A1!%20Seja%20bem-vindo%20a%20DS%20Artes%20Digite%20sua%20d%C3%BAvida%20abaixo%20e%20um%20atendente%20responder%C3%A1%20suas%20d%C3%BAvidas%20em%20alguns%20instantes.">
-        <i id="whatsappbutton" class="fa-brands fa-3x fa-square-whatsapp"></i></a>
-      </div>
-      <div class="col-sm p-1 d-flex justify-content-center align-items-center">
-          <i class="fa-solid fa-2x fa-phone"></i><h4 class="m-0 ms-4">19 9.9506-6075</h4>
-      </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm p-1">
+                <a href="https://api.whatsapp.com/send?phone=5519995066075&text=Ol%C3%A1!%20Seja%20bem-vindo%20a%20DS%20Artes%20Digite%20sua%20d%C3%BAvida%20abaixo%20e%20um%20atendente%20responder%C3%A1%20suas%20d%C3%BAvidas%20em%20alguns%20instantes.">
+                    <i id="whatsappbutton" class="fa-brands fa-3x fa-square-whatsapp"></i></a>
+            </div>
+            <div class="col-sm p-1 d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-2x fa-phone"></i><h4 class="m-0 ms-4">19 9.9506-6075</h4>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <form action="https://formsubmit.co/lugaveho@mailgolem.com" method="POST" class="me-4 mt-3 ms-4">
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Nome</label>
-      <input type="text" name="Nome" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label" >E-mail</label>
-      <input type="email" name="E-mail" class="form-control" required id="exampleInputPassword1">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1"  class="form-label">Mensagem</label>
-      <textarea class="form-control" name="Mensagem" required id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <div class="d-flex justify-content-center">  <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-  </form>
+    <form action="https://formsubmit.co/lugaveho@mailgolem.com" method="POST" class="me-4 mt-3 ms-4">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nome</label>
+            <input type="text" name="Nome" class="form-control" id="exampleInputEmail1" required
+                   aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">E-mail</label>
+            <input type="email" name="E-mail" class="form-control" required id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+            <textarea class="form-control" name="Mensagem" required id="exampleFormControlTextarea1"
+                      rows="3"></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
 </div>
+
+<div class="d-none d-sm-flex container-sm mt-4 justify-content-center">
+
+    <div class="mapouter ">
+        <div class="gmap_canvas">
+            <iframe  id="map"  width="600" height="180" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=Al.%20Dr.%20Jos%C3%A9%20Cardeal,%20210%20Jardim%20Pedroso,%20Indaiatuba/SP&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://123movies-to.org"></a><br>
+            <style>.mapouter {
+                position: relative;
+                text-align: right;
+                height: 180px;
+                width: 600px;
+            }</style>
+            <a href="https://www.embedgooglemap.net">how to add a google map to wordpress</a>
+            <style>.gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 180px;
+                width: 600px;
+            }</style>
+        </div>
+    </div>
+
+</div>
+
+<footer class="mt-5">
+    <div class="container-sm d-flex justify-content-center text-center">
+        <div style="max-width: 500px" class="row">
+            <div  class="col">
+                <a target="_blank" href="https://www.instagram.com/dsartes.ind/">
+                    <i class="fa-brands fa-3x fa-instagram footer-icons"></i></a>
+            </div>
+            <div  class="col">
+                <a target="_blank" href="https://www.facebook.com/Ds-artes-1078439342208775">
+                    <i class="fa-brands footer-icons fa-3x fa-facebook"></i></a>
+            </div>
+            <div class="col">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5519995066075&text=Ol%C3%A1!%20Seja%20bem-vindo%20a%20DS%20Artes%20Digite%20sua%20d%C3%BAvida%20abaixo%20e%20um%20atendente%20responder%C3%A1%20suas%20d%C3%BAvidas%20em%20alguns%20instantes.">
+                    <i class="fa-brands footer-icons fa-3x fa-whatsapp"></i></a>
+            </div>
+            <div class="col-12">
+                <p id="creditos">Desenvolvido por: <a target="_blank" href="https://www.cut-ti.com">Vinícius Ian</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 <script src="js/bootstrap.bundle.js"></script>

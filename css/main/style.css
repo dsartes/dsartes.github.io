@@ -12,7 +12,7 @@
     color: #0097DA !important;
 }
 
-.nav-link:active{
+.active{
     color: #0097DA !important;
 }
 
@@ -20,9 +20,8 @@ a, p, h1, h2, h3, h4, h5, h6, body, html{
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.testcarousel {
-    height: 80% !important;
-    width: 100% !important;
+#carouselExampleCaptions {
+    margin-top: 65px;
 }
 
 .navbar.center .navbar-inner {
@@ -81,7 +80,72 @@ a, p, h1, h2, h3, h4, h5, h6, body, html{
 #cardimageuniformes{
     height: 289px;
     width: 289px;
-    background-image:url("/images/cards/Camisetas-6-1.jpg");
+    background-image:url("images/cards/Camisetas-6-1.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.cardlink{
+    color: var(--bs-card-color);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.cardlink:hover{
+    color: #0097DA !important;
+    transform: scale(1.1);
+}
+
+.listbuttons{
+    color: var(--bs-card-color);
+    margin-right: 10px;
+}
+
+.carditens{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 8px;
+}
+
+.carditens img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #212529;
+    padding-top: 30px;
+    margin-top: auto;
+
+}
+
+.footer-icons{
+    color: #0097DA;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #0097DA;
+;
+}
+
+#creditos{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#creditos a{
+    color: #0097DA;
+    text-decoration: none;
 }
